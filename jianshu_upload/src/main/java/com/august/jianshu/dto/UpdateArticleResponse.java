@@ -1,7 +1,5 @@
 package com.august.jianshu.dto;
 
-import com.google.gson.annotations.SerializedName;
-
 /**
  * 更新文章
  */

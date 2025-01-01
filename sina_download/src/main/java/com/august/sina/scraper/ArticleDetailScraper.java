@@ -1,6 +1,5 @@
 package com.august.sina.scraper;
 
-import com.august.blog.dto.ArticleDetail;
 import com.august.sina.dto.SinaArticleDetail;
 import com.august.sina.scraper.convert.Base64ImagesHtmlConvert;
 import org.apache.commons.lang3.StringUtils;

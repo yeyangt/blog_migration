@@ -1,19 +1,22 @@
 package com.august.sina;
 
-import com.august.sina.dto.SinaArticleItem;
+import com.august.blog.util.DirUtil;
 import com.august.sina.dto.Category;
 import com.august.sina.dto.SinaArticleDetail;
+import com.august.sina.dto.SinaArticleItem;
 import com.august.sina.scraper.ArticleDetailScraper;
 import com.august.sina.scraper.BlogCategoryScraper;
 import com.august.sina.scraper.BlogListScraper;
-import com.august.blog.util.DirUtil;
 import com.august.sina.scraper.BlogMainScraper;
 import com.august.sina.util.HtmlListGenerator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
-import java.util.*;
+import java.util.Arrays;
+import java.util.LinkedHashSet;
+import java.util.List;
+import java.util.Set;
 
 public class SinaBlogSpiderStarter {
 
